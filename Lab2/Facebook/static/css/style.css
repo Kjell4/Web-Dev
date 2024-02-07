@@ -1,0 +1,99 @@
+body {
+    background-color:rgb(240, 242, 245);
+}
+#facebook_image{
+    width: 321px;
+    height: 106px;
+    margin-top: 168px;
+    margin-left: 210px;
+}
+#main-text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: -12px;
+    margin-left: 238.5px;
+}
+.second-box{
+    background-color: white;
+    margin-left: 820px;
+    margin-top: -260px;
+    width: 364px;
+    border-radius: 5px;
+    padding: 14px 16px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1.5px solid rgb(200,200,200);
+    box-shadow: 5px 5px 6px -7px;
+}
+input{
+    border:1.5px solid rgb(200,200,200);
+    border-radius: 6px;
+    padding: 14px 16px;
+    width: 330px;
+    font-size: 17px;
+}
+#password{
+    margin-top:10px;
+}
+.buttons{
+    width: 360px;
+    
+}
+#login-button{
+    margin-top: 20px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    color: white;
+    text-decoration: bold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.forget-password{
+    margin: 20px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+#create-button{
+    width: 230px;
+    padding: 14px 14px;
+    color:white;
+    background-color: rgb(64, 192, 31);
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.last-text{
+    text-align: center;
+    margin-left: 565px;
+    margin-top: 20px;
+}
+#create-page{
+    text-decoration: none;
+    color: black;
+}

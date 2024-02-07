@@ -1,0 +1,119 @@
+body{
+    background-color: #fff;
+}
+.header{
+    font-size: 12px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+    padding-top: 5px;
+}
+.logo img{
+    width: 108px;
+    height: 23px;
+    margin-left: 40px;
+}
+.M365 {
+    margin-left: 190px;
+    margin-top: -20px;
+}
+.office{
+    margin-left: 285px;
+    margin-top: -15px;
+}
+.win{
+    margin-left: 335px;
+    margin-top: -16px;
+}
+.sup{
+    margin-left: 405px;
+    margin-top: -16px;
+}
+.products{
+    float: right;
+    margin-top: -16px;
+    margin-right:210px;
+}
+.search{
+    float: right;
+    margin-top: -16px;
+    margin-right:135px;
+}
+.login{
+    float: right;
+    margin-top: -16px;
+    margin-right:85px;
+}
+.login-img{
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin-top: -25px;
+    margin-right:70px;
+}
+.main-news img{
+    width: 1429px;
+    height: 446px;
+}
+.main-news{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.news .main-text-head h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color:white;
+    margin-top: -350px;
+    margin-left: 100px;
+}
+.main-text-head p{
+    color:white;
+    font-size: 14px;
+    margin-left: 100px;
+    font-weight: normal;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-text-head button{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    background-color: #0067b8;
+    padding: 6px 5px 6px 5px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+.news1 , .news2, .news3, .news4{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+.news1 img, .news2 img, .news3 img, .news4 img{
+    width: 306px;
+    height: 171px;
+}
+.news1{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.news2{
+    margin-top: -303.5px;
+    margin-left: 410px;
+}
+.news3{
+    margin-top: -303.5px;
+    margin-left: 760px;
+}
+.news4{
+    margin-top: -271px;
+    margin-left: 1110px;
+}
+.news{
+    margin-bottom: 100px;
+}
+.news a{
+    color:#0067b8;
+    text-decoration: none;
+}
