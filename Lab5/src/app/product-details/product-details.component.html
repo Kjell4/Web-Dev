@@ -1,0 +1,16 @@
+<h2>Product Details</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <img [src]="product.img[0]" width="200px">
+  <img class="s" [src]="product.img[1]" width="150px">
+  <img class="s" [src]="product.img[2]" width="120px">
+  <h4>{{ product.price | currency: '₸' }}</h4>
+  <em>Rating: {{product.rating}}</em>
+
+  <p>{{ product.description }}</p>
+
+  <div class="link"><a href="{{product.link}}">Link to Kaspi.kz</a></div>
+
+  <button type="button" (click)="addToCart(product)">Buy</button>
+</div>

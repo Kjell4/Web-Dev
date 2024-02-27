@@ -1,0 +1,77 @@
+.category-header{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 630px;
+    margin-top: 20px;
+    text-align: center;
+}
+.categories{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.smartphones , .headphones , .pcs_and_laptops , .tv{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
+    border: 1px solid #1976d2;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    background-color: #1976d2;
+}
+.smartphones span, .headphones span, .pcs_and_laptops span, .tv span{
+    color: white;
+}
+.tv{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 550px;
+}
+.pcs_and_laptops{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 550px;
+}
+.headphones{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1000px;
+}
+.smartphones{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+#sm{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 290px;
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+}
+#hf{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 980px;
+    width: 290px;
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+}
+#tvp{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 980px;
+    width: 290px;
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+}
+#pl{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 100px;
+    width: 290px;
+    border: 2px solid #1976d2;
+    border-radius: 6px;
+}

@@ -1,0 +1,30 @@
+/* .category-header{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.categories{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.smartphones , .headphones , .pcs_and_laptops , .tv{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+    background-color: #1976d2;
+}
+.smartphones span, .headphones span, .pcs_and_laptops span, .tv span{
+    color: white;
+} */
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
