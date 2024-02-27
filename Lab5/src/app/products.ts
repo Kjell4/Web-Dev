@@ -143,7 +143,7 @@ export const products = [
     объем встроенной памяти: 128.0 ГБ
     емкость аккумулятора: 5000.0 мАч`,
     rating: 4.7,
-    link: 'https://kaspi.kz/shop/p/apple-watch-series-8-45-mm-aluminum-starlight-bezhevyi-106585021/?c=750000000',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-12-6-gb-128-gb-goluboi-109772311/?c=750000000',
     img: ['https://resources.cdn-kaspi.kz/img/m/p/hb3/h06/79840503595038.jpg?format=gallery-medium','https://resources.cdn-kaspi.kz/img/m/p/h50/hb5/79840504119326.jpg?format=gallery-medium','https://resources.cdn-kaspi.kz/img/m/p/h90/h43/79840505692190.jpg?format=gallery-medium'],
     category: 'Smartphones',
     likes: 0
