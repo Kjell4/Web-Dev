@@ -1,0 +1,15 @@
+
+<button (click)="goBack()">Return Back</button>
+
+<div *ngIf="loaded">
+
+    <div *ngFor="let photo of photo">
+        <h5>{{photo.title}}</h5>
+        <img src="photo.url">
+        <img src="photo.thumbnailUrl">
+    </div>
+</div>
+
+<p *ngIf="!loaded">
+    Album photos are loading...
+</p>

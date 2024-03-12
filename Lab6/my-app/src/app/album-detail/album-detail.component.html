@@ -1,0 +1,20 @@
+<div *ngIf="loaded">
+
+
+    <input [(ngModel)]="album.title" placeholder="Edit Album Title">
+
+    <button (click)="saveChanges()">Save</button>
+
+    <h3>Album detail #{{album.id}}</h3>
+
+    <h4>{{album.title}}</h4>
+
+    <p>{{album.body}}</p>
+
+    <a (click)="goToPhotos()">Link to photos</a>
+
+</div>
+
+<p *ngIf="!loaded">
+    Album details are loading...
+</p>
