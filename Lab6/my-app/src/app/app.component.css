@@ -1,0 +1,44 @@
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+}
+.home_link{
+    font-weight: bold;
+    margin-top: -60px;
+    float: right;
+    margin-right: 350px;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #F5F0DB;
+}
+.about_link{
+    margin-top: -60px;
+    font-weight: bold;
+    float: right;
+    margin-right: 230px;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #F5F0DB
+}
+.albums_link{
+    margin-top: -60px;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    border: 1px solid none;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: #F5F0DB
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.line{
+    margin-top: 10px;
+}
+.line hr{
+    opacity: 30%;
+}

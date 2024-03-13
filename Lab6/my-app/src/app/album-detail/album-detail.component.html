@@ -3,7 +3,7 @@
 
     <input [(ngModel)]="album.title" placeholder="Edit Album Title">
 
-    <button (click)="saveChanges()">Save</button>
+    <button id="save_button" (click)="saveChanges()">Save</button>
 
     <h3>Album detail #{{album.id}}</h3>
 
@@ -11,7 +11,7 @@
 
     <p>{{album.body}}</p>
 
-    <a (click)="goToPhotos()">Link to photos</a>
+    <button id="open_button" (click)="goToPhotos()"> Open album </button>
 
 </div>
 

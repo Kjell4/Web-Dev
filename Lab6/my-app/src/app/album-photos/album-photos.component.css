@@ -1,0 +1,13 @@
+img{
+    margin-left: 50px;
+}
+button{
+    width: 30px;
+    background: none;
+    border: none;
+}
+#back{
+    margin-left: 0px;
+    width: 30px;
+    cursor: pointer;
+}

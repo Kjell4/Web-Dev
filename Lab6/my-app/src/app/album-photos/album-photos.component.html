@@ -1,12 +1,12 @@
 
-<button (click)="goBack()">Return Back</button>
+<button (click)="goBack()"> <img id="back" src="https://cdn-icons-png.flaticon.com/512/93/93634.png"> </button>
 
 <div *ngIf="loaded">
 
     <div *ngFor="let photo of photo">
         <h5>{{photo.title}}</h5>
-        <img src="photo.url">
-        <img src="photo.thumbnailUrl">
+        <img src="{{photo.url}}" width="600px">
+        <img src="{{photo.thumbnailUrl}}" width="150px">
     </div>
 </div>
 
