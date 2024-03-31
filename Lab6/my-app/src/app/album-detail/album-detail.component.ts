@@ -17,6 +17,7 @@ export class AlbumDetailComponent implements OnInit{
   
   album!: Album;
   loaded!:boolean;
+  newTitle!: string;
 
   constructor(private route: ActivatedRoute, private albumService: AlbumService, private router: Router){
 
@@ -40,9 +41,9 @@ export class AlbumDetailComponent implements OnInit{
 
   saveChanges(): void {
     const id: number = Number(this.route.snapshot.paramMap.get('id'));
-    // Вызываем метод сервиса для обновления заголовка альбома
-    this.albumService.updateAlbumTitle(id, this.album.title).subscribe(() => {
-      // Можете также добавить обработку успешного сохранения, если необходимо
+    this.albumService.updateAlbumTitle(id, this.newTitle).subscribe(() => {
+      this.album.title = this.newTitle
+      this.newTitle = ""
       console.log('Title updated successfully.');
     });
   }

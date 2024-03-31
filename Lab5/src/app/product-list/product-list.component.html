@@ -15,7 +15,7 @@
       Description: {{ product.description }}
     </p>
 
-    <a target="_blank" [href]="product.link">
+    <a target="_blank" (click)="share(product.name, product.link)">
       <button type="button">
         Share
       </button>

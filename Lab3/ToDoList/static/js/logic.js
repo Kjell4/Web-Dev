@@ -15,10 +15,12 @@ btn.addEventListener("click", function() {
     let del = document.createElement('img')
     del.src = "static/images/delete.png"
    
-    all.appendChild(container)
-    container.appendChild(tasktext)
-    container.appendChild(del)
-    container.appendChild(checkbox)
+    if(text != ""){
+        all.appendChild(container)
+        container.appendChild(tasktext)
+        container.appendChild(del)
+        container.appendChild(checkbox)
+    }
 
     checkbox.addEventListener('change', function() {
         if (checkbox.checked) {
