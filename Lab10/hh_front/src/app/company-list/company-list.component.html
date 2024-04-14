@@ -1,0 +1,13 @@
+<div *ngIf="loaded; else loading">
+    <div id="company_item" *ngFor="let company of companies">
+        <a [routerLink]="['/companies', company.id, 'vacancies']"><h3>{{company.name}}</h3></a>
+        <p>{{company.description}}</p>
+        <p>{{company.city}}</p>
+        <p>{{company.address}}</p>
+        
+    </div>
+</div>
+
+<ng-template #loading>
+    <p>Companies are loading...</p>
+</ng-template>

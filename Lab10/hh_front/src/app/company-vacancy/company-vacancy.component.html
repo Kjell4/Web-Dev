@@ -1,0 +1,13 @@
+<div *ngIf="loaded; else loading">
+    <div id="vacancy_item" *ngFor="let vacancy of vacancies">
+        <h3>{{vacancy.name}}</h3>
+        <p id="salary_text">from {{vacancy.salary}}$</p>
+        <p>{{vacancy.description}}</p>
+
+        <button id="respond_button">Respond</button>
+    </div>
+</div>
+
+<ng-template #loading>
+    <p>Companies are loading...</p>
+</ng-template>

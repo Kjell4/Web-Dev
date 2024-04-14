@@ -1,0 +1,16 @@
+#company_item{
+    width: 500px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+h3{
+    color: #468ffd;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}

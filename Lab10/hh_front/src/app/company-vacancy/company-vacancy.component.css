@@ -1,0 +1,26 @@
+#vacancy_item{
+    width: 500px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+h3{
+    color: #468ffd;
+    font-size: 20px;
+}
+#salary_text{
+    font-weight: bold;
+    font-size: 18px;
+}
+#respond_button{
+    background-color: #0dc267;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    border: #0dc267;
+    border-radius: 6px;
+    cursor: pointer;
+}
